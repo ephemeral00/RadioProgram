@@ -1,0 +1,9 @@
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\bin\Debug\RadioInterface.exe.config
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\bin\Debug\RadioInterface.exe
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\bin\Debug\RadioInterface.pdb
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\obj\Debug\RadioInterface.csprojAssemblyReference.cache
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\obj\Debug\RadioInterface.Properties.Resources.resources
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\obj\Debug\RadioInterface.csproj.GenerateResource.cache
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\obj\Debug\RadioInterface.exe
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\obj\Debug\RadioInterface.pdb
+C:\Users\abney54112\source\repos\RadioInterface\RadioInterface\obj\Debug\RadioInterface.Form1.resources
