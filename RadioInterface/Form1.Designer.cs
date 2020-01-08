@@ -88,7 +88,7 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
             this.openToolStripMenuItem.Text = "Clear";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -107,32 +107,32 @@
             this.cSVToolStripMenuItem,
             this.hTMLToolStripMenuItem});
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.exportToolStripMenuItem.Text = "Export";
             // 
             // dATToolStripMenuItem
             // 
             this.dATToolStripMenuItem.Name = "dATToolStripMenuItem";
-            this.dATToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.dATToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.dATToolStripMenuItem.Text = "TXT";
             this.dATToolStripMenuItem.Click += new System.EventHandler(this.dATToolStripMenuItem_Click);
             // 
             // dATToolStripMenuItem1
             // 
             this.dATToolStripMenuItem1.Name = "dATToolStripMenuItem1";
-            this.dATToolStripMenuItem1.Size = new System.Drawing.Size(106, 22);
+            this.dATToolStripMenuItem1.Size = new System.Drawing.Size(107, 22);
             this.dATToolStripMenuItem1.Text = "DAT";
             // 
             // cSVToolStripMenuItem
             // 
             this.cSVToolStripMenuItem.Name = "cSVToolStripMenuItem";
-            this.cSVToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.cSVToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.cSVToolStripMenuItem.Text = "CSV";
             // 
             // hTMLToolStripMenuItem
             // 
             this.hTMLToolStripMenuItem.Name = "hTMLToolStripMenuItem";
-            this.hTMLToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.hTMLToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.hTMLToolStripMenuItem.Text = "HTML";
             // 
             // helpToolStripMenuItem
@@ -184,6 +184,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 8;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 

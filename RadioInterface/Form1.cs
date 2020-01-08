@@ -119,7 +119,14 @@ namespace RadioInterface
 
         private void dATToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            OpenFileDialog ofd = new OpenFileDialog();
+            //ofd.Filter = "TXT|*.txt";
+            ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+               
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -177,6 +184,18 @@ namespace RadioInterface
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            /*string a = textBox1.Text;
+
+            dataGridView1.Visible = false;
+
+            for(int i=0; i < dataGridView1.Size; i++)
+            {
+                if (a == ) {
+                    dataGridView1.Rows[i].Visible = true;
+                }
+            }*/
+
+
 
         }
 
@@ -191,6 +210,11 @@ namespace RadioInterface
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
